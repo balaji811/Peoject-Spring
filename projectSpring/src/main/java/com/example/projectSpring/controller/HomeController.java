@@ -13,7 +13,7 @@ import com.example.projectSpring.model.Employee;
 import com.example.projectSpring.service.EmployeeService;
 
 @RestController
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+@CrossOrigin(origins = "https://employee-frontend-mocha-sigma.vercel.app")
 public class HomeController {
 	
 	@Autowired
