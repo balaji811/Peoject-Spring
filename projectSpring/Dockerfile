@@ -2,8 +2,8 @@ FROM maven:3.9-eclipse-temurin-21
 
 WORKDIR /app
 
-COPY pom.xml .
-COPY src ./src
+COPY projectSpring/pom.xml .
+COPY projectSpring/src ./src
 
 RUN mvn clean package -DskipTests
 
